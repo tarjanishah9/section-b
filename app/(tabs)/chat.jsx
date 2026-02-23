@@ -13,7 +13,7 @@ export default function App(){
            const  newData= {'id':data.length+1,'message':urMsg,
             'align':align }
            setData([...data,newData]);
-           setUrMsg("")git 
+           setUrMsg("")
         }
         else{
             const newData= {'id':data.length+1,'message':myMsg,'align':align }
